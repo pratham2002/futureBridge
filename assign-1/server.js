@@ -17,8 +17,8 @@ router.get("/",function(req,res,next){
 router
 app.use("/movies",router)
 // app.post("/",(req,res)=>{
-        const data = req.body()
-        
+        // const data = req.body()
+
 // })
 app.listen(PORT,function(err){
     if(!err) console.log("Server Running on Port",PORT)
